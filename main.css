@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 8em;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+@keyframes eee {
+    from {left: 0px; top: 0px;}
+    to {left: 70px; top: -25px;}
+  }
+
+@keyframes ooo {
+    from {top: 0px;}
+    to {top: -25px;}
+  }
+
+@keyframes ree {
+    from {left: 0px; top: 0px;}
+    to {left: -70px; top: -25px;}
+  }
+
+@keyframes nee {
+    from {top: 0px; left: 0px;}
+    to {top: 55px; left: -272px;}
+  }
+
+.rectone-d {
+    background: white;
+    color: black;
+    width: 12px;
+    height: 12px;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 1em;
+    position: relative;
+    animation-name: dee;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+
+@keyframes dee {
+    from {top: 0px; left: 0px;}
+    to {top: -100px; left: 272px;}
+  }
+
+.recttwo-e {
+    background: none;
+    width: 12px;
+    height: 12px;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 1em;
+    position: relative;
+    animation-name: eee;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+
+
+.rectone-o {
+    background: white;
+    color: black;
+    width: 12px;
+    height: 12px;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 1em;
+    position: relative;
+    animation-name: ooo;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+
+.recttwo-r {
+    background: none;
+    width: 12px;
+    height: 12px;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 1em;
+    position: relative;
+    animation-name: ree;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+
+.rectone-n {
+    background: white;
+    color: black;
+    width: 12px;
+    height: 12px;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 1em;
+    position: relative;
+    animation-name: nee;
+    animation-duration: 8s;
+    animation-delay: 8s;
+}
+
+@keyframes slidel {
+    from {left: 400px;}
+    to {left: 40px;}
+  }
+
+@keyframes slider {
+    from {right: 400px;}
+    to {right: 40px;}
+  }
+
+
+.horizontal-left {
+    background: white;
+    width: 72px;
+    height: 0.1px;
+    border: 1px white solid;
+    border-radius: 8px;
+    position: absolute;
+    padding: 1px;
+    animation: slidel 8s infinite;
+}
+
+.horizontal-right {
+    background: white;
+    width: 72px;
+    height: 0.1px;
+    border: 1px white solid;
+    border-radius: 8px;
+    position: absolute;
+    padding: 1px;
+    animation: slider 8s infinite;
+}
+
+.horizontal-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.deorn-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
